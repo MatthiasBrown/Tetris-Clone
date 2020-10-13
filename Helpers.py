@@ -12,11 +12,14 @@ TURQUOISE = (64, 224, 208) # I-BLOCK
 
 x = 50    # The direction of our Blocks, LEFT/UP is negative direction
 y = 50
-#axis  # TODO: Set up rotation 
+#axis  # TODO: Set up rotation
 height = 60
 width = 40
 vel = 5
 
-lvl = []
-for i range(19):
-    lvl.append(i)
+level = [ i for i in range(100)]
+level_speed = [i for i in range(10)]
+
+
+#This the gird the game occurs in, 16 rows by 10 coloums
+#tile_gird= ([], [])
